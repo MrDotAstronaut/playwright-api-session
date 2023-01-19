@@ -1,0 +1,32 @@
+{
+  "name": "playwright-api-basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "1.1": "npx playwright test /tests/1.Basics/1.1Basics.spec.ts",
+    "1.2": "npx playwright test /tests/1.Basics/1.2CustomContext.spec.ts",
+    "1.3": "npx playwright test /tests/1.Basics/1.3XML.spec.ts",
+    "2.1": "npx playwright test /tests/2.Parameters/2.1PathParameter.spec.ts",
+    "2.2": "npx playwright test /tests/2.Parameters/2.2QueryParameter.spec.ts",
+    "3.1": "npx playwright test /tests/3.Validations/3.1BodyValidation.spec.ts",
+    "3.2": "npx playwright test /tests/3.Validations/3.2SchemaValidation.spec.ts",
+    "4.1": "npx playwright test /tests/4.Pre-Condition-&-Post-Condition/4.1PreCondition-PostCondition.spec.ts",
+    "5.1": "npx playwright test /tests/5.Data/5.1HardCodedData.spec.ts",
+    "5.2": "npx playwright test /tests/5.Data/5.2JSONData.spec.ts",
+    "6.1": "npx playwright test /tests/6.API-Collection/6.1APICollection.spec.ts",
+    "7.1": "npx playwright test /tests/7.API-Framework/7.1APIFramework.spec.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.29.1"
+  },
+  "dependencies": {
+    "ajv": "^8.11.2",
+    "csv-parse": "^5.3.3",
+    "node-xlsx": "^0.21.0",
+    "xlsx": "^0.18.5"
+  }
+}
