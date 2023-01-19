@@ -32,30 +32,30 @@
 - Go to the following url: https://www.base64encode.org
 
     Pass the username and password in the first text box in the following format:
-
+    ```
     username:password
-
+    ```
     Example: 
-
+    ```
     admin:g9tN-%E4tfDU
-
+    ```
     After that just click on encode, and the resulting value can be used for authentication for the APIs in this projects.
 
     Once encoded it will the username and password will look something like this.
-
+    ```
     YWRtaW46Zzl0Ti0lRTR0ZkRV
-
+    ```
     ![image](./images/8.%20BASE64%20Encode.png)
 
 
 - You need to use basic authentication in authorization header using the following format:
-
+    ```
     Basic encoded_value
-
+    ```
     Example:
-
+    ```
     Basic YWRtaW46Zzl0Ti0lRTR0ZkRV
-
+    ```
     Replace the url and authorization for the following files:
 
     - playwright.config.ts
